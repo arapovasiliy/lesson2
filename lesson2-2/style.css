@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background-color: #FFE2C4;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+.item:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 2s;
+}
